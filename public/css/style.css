@@ -1,0 +1,434 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+/* Menu navigation */
+.navbar-brand{
+	margin-left: 25px;
+}
+
+.navbar-toggler{
+  width: 60px;
+}
+.redressed {
+	font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.cc-navbar {
+	font-family: 'Merriweather', serif;
+	box-shadow: 1px 1px 3px #009F53;
+	z-index: 99;
+}
+
+.cc-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+	padding-bottom: 20px;
+	border-bottom-color: #009F53;
+}
+
+/* Page inscription et connexion */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+.imgins{
+  margin-top: 5%;
+  padding: 1rem 4rem 1rem 4rem;
+  width: 330px;
+  background: #fff;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0 0;
+}
+
+.wrapper{
+  width: 330px;
+  padding: 2rem 0 1rem 0;
+  margin: 0px auto;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px ;
+
+}
+
+.pisn{
+  margin-bottom: 1.7rem;
+}
+.checkins {
+  width: 35%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.formins .inputins{
+  width: 85%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.recover{
+  text-align: right;
+  font-size: 0.8rem;
+  margin: 0.2rem 1.7rem 0 0;
+}
+.recover .ains{
+  text-decoration: none;
+  color: #009F53;
+}
+.ains:hover{
+  text-decoration: underline;
+}
+
+.butins{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: #009F53;
+  color: #fff;
+  cursor: pointer;
+}
+.butins:hover{
+  background: #5fbd90;
+}
+.or{
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.not-member{
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+}
+.not-member .ins{
+  color: #009F53;
+  text-decoration: none;
+}
+.ins:hover{
+  text-decoration: underline;
+}
+
+/* page demande et reservation */
+
+.all-dem{
+  margin-top: 2%;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0, .25);
+  opacity: .8;
+}
+
+.all-tra{
+  margin-top: 2%;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0, .25);
+  opacity: .8;
+}
+
+
+
+@media screen and (max-width: 780px) {
+  .all-tra {
+     width: 100%;
+  }
+
+  }
+
+.all-res{
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0, .25);
+  opacity: .8;
+}
+
+.btdem{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: #009F53;
+  color: #fff;
+  cursor: pointer;
+
+}
+.btnew{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  
+  
+  cursor: pointer;
+
+}
+.btdem:hover{
+  background: #5fbd90;
+}
+
+.formdem .inputdem{
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  border-radius: 10px;
+  }
+.formdem{
+  margin: 15px auto;
+}
+.cardem{
+  margin: 15px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cdem{
+  margin: 15px auto;
+}
+.cdem1{
+  margin-top: -20px;
+}
+
+.t1, .t2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:100%;
+  color: rgb(0, 0, 0);
+  margin: 15px auto;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.text-container {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+.accordion-button::after {
+  display: none;
+}
+
+/* Ceci est un commentaire en CSS */
+
+.bt-ent{
+  width: 100%;
+
+}
+
+.all-ent{
+  margin-top: 2%;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0, .25);
+  opacity: .8;
+
+}
+
+@media screen and (max-width: 780px) {
+  .all-ent {
+     width: 100%;
+  }
+  }
+
+.bt-ent1{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bt-ent1:hover{
+  background: #bd5f5f;
+}
+
+.bt-ent2{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: #009F53;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bt-ent2:hover{
+  background: #5fbd90;
+}
+
+.carpro{
+  background-color: #009F53;
+  width: 50%;
+  justify-content: center;
+}
+
+.all-pro {
+  margin-top: 0%;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 30px rgba(0,0,0, .25);
+  opacity: .8;
+
+}
+
+@media screen and (max-width: 900px) {
+  .all-pro  {
+     width: 100%;
+  }
+  }
+
+  @media screen and (max-width: 900px) {
+     .carpro {
+       width: 100%;
+    }
+    }
+
+  .taent{
+    width:50% ;
+  }
+
+  @media screen and (max-width: 900px) {
+    .taent {
+       width: 100%;
+    }
+    }
+
+.imgpro{
+  border-radius: 50%;
+  width:20%;
+}
+
+
+.bt-ent3{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 30%;
+  background: #009F53;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bt-ent3:hover{
+  background: #5fbd90;
+}
+
+
+.bt-ent3{
+  font-size: 1.1rem;
+  margin: 15px auto;
+  padding: 8px 0;
+  border-radius: 5px;
+  width: 30% ;
+  background: #dfe9f5;
+  cursor: pointer;
+  color: #C8C7CC;
+  border: 0.5px solid #009F53;
+}
+
+
+@media screen and (max-width: 900px) {
+  .bt-ent3 {
+     width: 50%;
+  }
+  }
+
+  .carnot{
+    background-color: #009F53;
+    width: 50%;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .carnot {
+      width: 100%;
+   }
+   }
+
+  .h2_not{
+     color: #ffffff;
+  }
+
+  .tanot{
+    width:80% ;
+  }
+
+  .allhist{
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .chist{
+    margin: 15px auto;
+  }
+  .chist1{
+    margin-top: -20px;
+  }
+
+.chist2{
+  margin: 15px auto;
+  justify-content: center;
+  align-items: center;
+}
